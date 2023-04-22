@@ -7,5 +7,15 @@ pipeline {
                 echo 'Pipeline 2 from GitHUb repo started'
             }
        }
+       stage('stage2') {
+            steps {
+                echo 'Pipeline 2 from GitHUb repo in progress'
+            }
+       }
+       stage('stage3') {
+            steps {
+                echo 'Pipeline 2 from GitHUb repo completed'
+            }
+       }
     }
 }
