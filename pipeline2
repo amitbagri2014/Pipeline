@@ -6,8 +6,7 @@ pipeline {
             steps {
                 echo 'Pipeline 2 from GitHUb repo started'
             }
-        }
-    }
+       }
     stages {
         stage('stage2') {
             steps {
