@@ -7,11 +7,5 @@ pipeline {
                 echo 'Pipeline 2 from GitHUb repo started'
             }
        }
-   
-        stage('stage2') {
-            steps {
-                echo 'Pipeline 2 from GitHUb repo executed'
-            }
-        }
     }
 }
